@@ -67,22 +67,11 @@
 ## 存货的初始计量
 - 存货成本 `采购成本 加工成本 其他成本`
 ### 外购存货的成本
-- 价 
-- 税
-- 费
+- 价 购买价款（不包括 可以抵扣的增值税进项税额，不能抵扣的计入存货成本）
+- 税 相关税费
+- 费 运输费 保险费 其他
 
 - `发出存货`的计量（关注）
 - 存货跌价准备
 - 存货`期末计量`
 - 存货的`清查盘点`
-
-
-```mermaid
-graph TD
-client1-->|read / write|SVN((SVN server))
-client2-->|read only|SVN
-client3-->|read / write|SVN
-client4-->|read only|SVN
-client5(...)-->SVN
-SVN---|store the data|sharedrive
-```
